@@ -1,7 +1,17 @@
 
 nav {
  border-bottom: 1px solid lightgrey;
+ background-color: lightgrey;
 }
-#hero {
+/* .main-area {
   background-color: lightblue;
+} */
+.splash-page {
+  background-image: url(./images/dark-computer-screen.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+.main-headline {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
