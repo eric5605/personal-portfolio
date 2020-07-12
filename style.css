@@ -1,11 +1,10 @@
-
 nav {
- border-bottom: 1px solid lightgrey;
- background-color: lightgrey;
+ background-image: url(./images/grey-background-for-navbar.jpg);
+ margin-bottom: 0;
+ border-bottom: transparent;
+ background-size: cover;
+ background-position: center bottom;
 }
-/* .main-area {
-  background-color: lightblue;
-} */
 .splash-page {
   background-image: url(./images/dark-computer-screen.jpg);
   background-size: cover;
