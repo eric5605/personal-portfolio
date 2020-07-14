@@ -1,9 +1,11 @@
 nav {
- background-image: url(./images/grey-background-for-navbar.jpg);
+ background-image: url(./images/grade-grey.jpg);
+ background-image: linear-gradient(grey, black);
  margin-bottom: 0;
  border-bottom: transparent;
  background-size: cover;
  background-position: center bottom;
+ height: 65px;
 }
 .splash-page {
   background-image: url(./images/dark-computer-screen.jpg);
@@ -13,9 +15,18 @@ nav {
 .main-headline {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  height: 200px;
+  padding-top: 25px;
 }
 footer {
-  padding-top: 35px;
+  padding-top: 5px;
   height: auto;
-  /* float: right; */
+}
+.navbar-custom a:hover {
+    color: rgb(404,128,128) !important;
+}
+.about-section {
+  background-image: url(./images/wall-off-yellow.jpg);
+  background-size: cover;
+  background-position: center bottom;
 }
