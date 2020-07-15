@@ -19,10 +19,6 @@ nav {
   height: 200px;
   padding-top: 25px;
 }
-footer {
-  padding-top: 5px;
-  height: auto;
-}
 .navbar-custom a:hover {
     color: rgb(404,128,128) !important;
 }
@@ -30,6 +26,11 @@ footer {
   background-image: url(./images/wall-off-yellow.jpg);
   background-size: cover;
   background-position: center bottom;
+
+}
+.border-about-custom {
+  border: 1px red;
+  /* height: 600px; */
 }
 .text-custom a {
   color: white !important;
@@ -37,5 +38,9 @@ footer {
 }
 .portfolios-custom img {
   width: 100%;
+  height: auto;
+}
+footer {
+  padding-top: 5px;
   height: auto;
 }
