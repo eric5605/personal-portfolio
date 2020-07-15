@@ -30,7 +30,6 @@ nav {
 }
 .border-about-custom {
   border: 1px red;
-  /* height: 600px; */
 }
 .text-custom a {
   color: white !important;
@@ -42,8 +41,6 @@ nav {
 }
 .contact-styles {
   border: 1px solid grey;
-  /* box-shadow: 15px white; */
-  /* box-shadow: 5px 10px 18px white; */
   box-shadow: 5px 10px 8px 10px #888888;
 }
 footer {
