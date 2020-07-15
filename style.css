@@ -1,11 +1,13 @@
 nav {
  background-image: url(./images/grade-grey.jpg);
  background-image: linear-gradient(grey, black);
- margin-bottom: 0;
  border-bottom: transparent;
  background-size: cover;
  background-position: center bottom;
  height: 65px;
+}
+.dropdown-custom {
+  max-width: 10%
 }
 .splash-page {
   background-image: url(./images/dark-computer-screen.jpg);
@@ -29,4 +31,12 @@ footer {
   background-image: url(./images/wall-off-yellow.jpg);
   background-size: cover;
   background-position: center bottom;
+}
+.text-custom a {
+  color: white !important;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 grey, 0 -1px grey;
+}
+.portfolios-custom img {
+  width: 100%;
+  height: auto;
 }
